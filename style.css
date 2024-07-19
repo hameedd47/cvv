@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+
+padding:0 ;
+margin: 0;
+box-sizing: border-box;
+}
+:root{
+
+    --primary-color: #231F1F;
+    --text-color: #FFFFFF;;
+}
+
+
+.drak-them{
+
+    --primary-color: #FFFFFF ;
+    --text-color: #231F1F;
+
+}
+
+html{
+
+    font-size: 10px;
+}
+body{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:var(--primary-color);
+    color:var( --text-color);}
+    img{
+
+        width: 100%;
+    }
+
+    a{
+
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    .container{
+max-width: 1000px;
+width: 90%;
+margin: 0 auto;
+display: grid;
+padding: 5rem;
+background: var(--primary-color);
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+    }
+
+    @media only screen and (max-width:768px ){
+        .container {
+         width: 100%;
+         grid-template-columns: 1fr;
+         padding: 3rem;
+         gap: 7rem;
+
+        } 
+    } 
+
+    .profile{
+grid-column: 1 / -1 ;
+margin-bottom: 2rem;
+    }
+
+    .profile_container{
+
+display: flex;
+gap: 2rem;
+
+    }
+    .profile_profileimge{
+
+max-width: 250px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 300px;
+width: 300px;
+border-radius: 50%;
+
+
+
+    }
+
+     #ff{
+
+        max-width: 250px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        
+
+    }
+
+ 
+
+.Fname{
+color: var(--text-color);
+font-weight: 200 ;
+
+display: block;
+
+    }
+
+    .Lname{
+        color: rgb(206, 2, 2);
+        font-weight: 700 ;
+        font-size: larger;
+     
+        display: block;
+
+    }
+    @media only screen and (max-width: 768px){
+.profile_container{
+
+flex-direction: column;
+
+}
+
+    }
+
+    .skill_list{
+
+        margin-top: 1rem;
+        margin-left: 2rem;
+        line-height: 2;
+    }
+    
+    .title{
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 2rem ;
+        color: rgb(255, 209, 2);
+        text-transform: uppercase;
+        margin-top: 1rem;
+          
+    }
+
+    .profile_title{
+
+        margin-top: 1rem;
+
+        font-size: 13px;
+
+
+    }
+#idd{
+
+    width: 30px;
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.int{
+
+    margin-top: 4rem;   
+}
+
+.int_items{
+
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    
+}
+
+.int_item{
+
+    font-size: 1.8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.EMILL{
+
+
+    color: rgb(247, 241, 239);
+    font-weight: 200 ;
+    
+    display: block;
+    gap: 2rem ;
+
+}
+
+ 
+#ic{
+
+    width: 30px;
+    cursor: pointer;
+}
